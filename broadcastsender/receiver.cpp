@@ -58,7 +58,7 @@
 Receiver::Receiver(QWidget *parent)
     : QWidget(parent)
 {
-    statusLabel = new QLabel(tr("Listening for broadcasted messages"));
+    statusLabel = new QLabel(tr("Listening for broadcasted messages!!!"));
     statusLabel->setWordWrap(true);
 
     auto quitButton = new QPushButton(tr("&Quit"));
