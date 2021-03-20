@@ -49,6 +49,7 @@
 ****************************************************************************/
 
 #include <QApplication>
+#include <QDebug>
 
 #include "sender.h"
 #include "receiver.h"
@@ -60,5 +61,6 @@ int main(int argc, char *argv[])
     sender.show();
     Receiver receiver;
     receiver.show();
+    qDebug() << "Hello World";
     return app.exec();
 }

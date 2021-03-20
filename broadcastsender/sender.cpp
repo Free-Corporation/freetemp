@@ -57,7 +57,7 @@
 Sender::Sender(QWidget *parent)
     : QWidget(parent)
 {
-    statusLabel = new QLabel(tr("Ready to broadcast datagrams on port 4210"));
+    statusLabel = new QLabel(tr("Ready to broadcast datagrams on port 4444"));
     statusLabel->setWordWrap(true);
 
     startButton = new QPushButton(tr("&Start"));
